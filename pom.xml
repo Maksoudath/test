@@ -9,7 +9,12 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <spring-version>4.0.0.RELEASE</spring-version>
+		  <sonar.projectKey>Maksoudath_test</sonar.projectKey>
+  <sonar.organization>maksoudath</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  <sonar.login>e5935e7238ff11e9780aedc65e1bf8bcf4c1207f</sonar.login>
     </properties>
+	
     <artifactId>webmagic-parent</artifactId>
     <name>webmagic-parent</name>
     <description>
@@ -391,4 +396,5 @@
             </distributionManagement>
         </profile>
     </profiles>
+
 </project>
